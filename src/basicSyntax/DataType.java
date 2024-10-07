@@ -2,19 +2,11 @@ package basicSyntax;
 
 public class DataType {
   public static void main(String[] args) {
-    int x = 5;
-    int y = 10;
+    System.out.println("こんにちは" + "私は" + "Geek君です。"); 
+    System.out.println("10"); 
+    System.out.println("20" + "24"); 
+    System.out.println("3.14"); 
+    System.out.println("true"); 
 
-    boolean andResultA = (x > 0 && y % 2 == 0);
-
-    System.out.println(andResultA); // true
-    
-    int a = 15;
-    int b = 10;
-    boolean isGreaterA = (a > b);
-
-    System.out.println(isGreaterA);//true
-    
-    
   }
 }
