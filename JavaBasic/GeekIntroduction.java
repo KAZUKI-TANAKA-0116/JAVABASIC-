@@ -21,10 +21,10 @@ public class GeekIntroduction {
 				System.out.println("num1とnum2は300以下にしてください。");
 				break;
 			} else if (num1 % 3 == 0 && num1 % 5 == 0) {
-				System.out.println(num1 + "は3倍数かつ5の倍数です。");
+				System.out.println(num1 + "は3の倍数かつ5の倍数です。");
 				continue;
 			} else if (num1 % 3 == 0) {
-				System.out.println(num1 + "は3倍数です。");
+				System.out.println(num1 + "は3の倍数です。");
 				continue;
 			} else if (num1 % 5 == 0) {
 				System.out.println(num1 + "は5の倍数です。");
