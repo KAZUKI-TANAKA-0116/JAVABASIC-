@@ -6,6 +6,6 @@ public class Main {
 
 		geek.greeting(18, 169.5);
 
-		geek.specialSkill(5, 100);
+		geek.specialSkill(10, 100);
 	}
 }
